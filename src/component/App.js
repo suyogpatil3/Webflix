@@ -33,6 +33,9 @@ function App() {
           <Route path='/details'>
             <Details/>
           </Route>
+          <Route>
+            <Homepage/>
+          </Route>
         </Switch>
       </Router>
       </GlobalProvider>

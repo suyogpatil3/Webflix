@@ -108,9 +108,11 @@ html{
 }
 .movie-broadPoster-overlay:hover{
   opacity: 100%;
-  background: #e1eec3;
-  background: -webkit-linear-gradient(to top, 70% #000000,transparent);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #000000  10%,transparent); 
+  margin-top:10px;
+  height:150px;
+  background: #111111bb;
+  /* background: -webkit-linear-gradient(to top, 70% #000000,transparent),  /* Chrome 10-25, Safari 5.1-6 */
+               /* linear-gradient(to top, #000000  10%,transparent);  */ 
   color:white;
   width: 94%;
   border-radius: 10px;
@@ -234,36 +236,13 @@ header .nav-links li:last-child {
   margin-right: 0;
 }
 
-/* Add Page */
-.add-content {
-  padding: 50px 0;
-  max-width: 600px;
-  margin: 0 auto;
-}
 
-.add-content .input-wrapper input {
-  width: 100%;
-  background-color: var(--primary);
-  padding: 10px;
-  border-radius: 5px;
-  border: none;
-  color: var(--white);
-  font-size: 1.25rem;
-}
+
+
 
 .watchRows{
   display: grid;
   /* grid-template-columns: ; */
-}
-
-.results {
-  padding: 0;
-  margin: 0;
-  margin-top: 20px;
-}
-
-.results li {
-  list-style: none;
 }
 
 .resultCard {
@@ -461,9 +440,11 @@ header .nav-links li:last-child {
 }
 .movie-overlay:hover ,.search-overlay:hover{
   opacity: 100%;
-  background: #e1eec3;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top, #000000,transparent);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #000000,transparent); 
+  margin-top:10%;
+  height:83%;
+  background: #11111186;  /* fallback for old browsers */
+  /* background: -webkit-linear-gradient(to top, 70% #000000,transparent),  /* Chrome 10-25, Safari 5.1-6 */
+  /* linear-gradient(to top, #000000  10%,transparent); */ 
   color:white;
   width: 90%;
   margin-left: 4%;
@@ -520,9 +501,8 @@ header .nav-links li:last-child {
   flex-direction: row;
   width: 100vw;
   height:100%;
-  opacity:100%;
   width: 101vw;
-  background: rgba(17, 17, 17, 0.698);
+  background: rgba(0, 0, 0, 0.698);
   justify-content: center;
   align-items: center;
   place-items: center;
@@ -609,11 +589,12 @@ header .nav-links li:last-child {
 /*============= Search Section ==============*/
 
 .search-overlay:hover{
-  height:96%;
-  width:180px;
-  margin-top: 6%;
+  height:90%;
+  width:182px;
+  margin-top: 34px;
   padding-top: 150px;
   margin-left: 25px;
+  padding-top:30%;
 }
 .search-overlay{
   width: 182px;
@@ -656,7 +637,8 @@ header .nav-links li:last-child {
 .search-filler-poster{
   margin-left:6px;
   width:177px;
-  height:270px;
+  height:268px;
+  margin-top:5px;
 }
 .resultCardDesign{
   width:  210px;
