@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Webflix/static/css/main.f29ff415.chunk.css",
+    "main.css": "/Webflix/static/css/main.bc45ca79.chunk.css",
     "main.js": "/Webflix/static/js/main.10aee8a5.chunk.js",
     "main.js.map": "/Webflix/static/js/main.10aee8a5.chunk.js.map",
     "runtime-main.js": "/Webflix/static/js/runtime-main.86c896d5.js",
@@ -10,14 +10,14 @@
     "static/js/2.ebfcbbc7.chunk.js.map": "/Webflix/static/js/2.ebfcbbc7.chunk.js.map",
     "index.html": "/Webflix/index.html",
     "static/css/2.4be38407.chunk.css.map": "/Webflix/static/css/2.4be38407.chunk.css.map",
-    "static/css/main.f29ff415.chunk.css.map": "/Webflix/static/css/main.f29ff415.chunk.css.map",
+    "static/css/main.bc45ca79.chunk.css.map": "/Webflix/static/css/main.bc45ca79.chunk.css.map",
     "static/js/2.ebfcbbc7.chunk.js.LICENSE.txt": "/Webflix/static/js/2.ebfcbbc7.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.86c896d5.js",
     "static/css/2.4be38407.chunk.css",
     "static/js/2.ebfcbbc7.chunk.js",
-    "static/css/main.f29ff415.chunk.css",
+    "static/css/main.bc45ca79.chunk.css",
     "static/js/main.10aee8a5.chunk.js"
   ]
 }
