@@ -107,7 +107,7 @@ html{
   padding-bottom:20px;
 }
 .movie-broadPoster-overlay:hover{
-  opacity: 100%;
+  opacity: 100;
   margin-top:10px;
   height:150px;
   background: #111111bb;
@@ -439,7 +439,7 @@ header .nav-links li:last-child {
   opacity:0;
 }
 .movie-overlay:hover ,.search-overlay:hover{
-  opacity: 100%;
+  opacity: 100;
   margin-top:10%;
   height:83%;
   background: #11111186;  /* fallback for old browsers */
@@ -488,12 +488,14 @@ header .nav-links li:last-child {
   z-index: 3;
   width:100%;
   border-radius: 15px;
+  opacity:100%;
 }
 .movie-container::after{
   transform : scale(1);
 }
 .movie-card:hover .overlay {
   border: 3px solid var(--secondary);
+  opacity:100%;
 }
 .detailsContent {
   clear: both;
@@ -595,6 +597,7 @@ header .nav-links li:last-child {
   padding-top: 150px;
   margin-left: 25px;
   padding-top:30%;
+  opacity:100;
 }
 .search-overlay{
   width: 182px;
