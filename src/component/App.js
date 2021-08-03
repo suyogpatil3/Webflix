@@ -18,19 +18,19 @@ function App() {
       <Router>
         <Header/>
         <Switch>
-          <Route exact path='/watchlist'>
+          <Route exact path='/Webflix/watchlist'>
             <Watchlist/>
           </Route>
-          <Route exact path="/">
+          <Route exact path="/Webflix">
             <Homepage/>
           </Route>
-          <Route path='/watched'>
+          <Route path='/Webflix/watched'>
             <Watched/>
           </Route>
-          <Route path='/add'>
+          <Route path='/Webflix/add'>
             <Search/>
           </Route>
-          <Route path='/details'>
+          <Route path='/Webflix/details'>
             <Details/>
           </Route>
           <Route>

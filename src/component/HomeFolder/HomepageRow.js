@@ -22,7 +22,7 @@ export const HomepageRow = ({movies,title,type}) => {
                             <div>
                             <i class="fas fa-star rating" style={{opacity:"100%"}}></i><span className="rating">{movie.vote_average}</span><p className="overview">{movie.overview}</p>
                             </div>
-                            <button className="moreButton" onClick={() => viewMoreDetails(movie)}><Link to='/details' style={{textDecoration:'none',color:'white'}}> more</Link></button>
+                            <button className="moreButton" onClick={() => viewMoreDetails(movie)}><Link to='/Webflix/details' style={{textDecoration:'none',color:'white'}}> more</Link></button>
                         </div>
                         </div>
                     ))

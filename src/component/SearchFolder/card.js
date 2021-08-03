@@ -19,7 +19,7 @@ export const Card = ({movie}) => {
                     <div>
                         <i class="far fa-star rating" style={{opacity:"100%"}}></i>{movie.vote_average}<p className="overview">{movie.overview}</p>
                     </div>
-                    <button className="moreButton" onClick={() => viewMoreDetails(movie)}><Link to='/details' style={{textDecoration:'none',color:'white'}}> more</Link></button>
+                    <button className="moreButton" onClick={() => viewMoreDetails(movie)}><Link to='/Webflix/details' style={{textDecoration:'none',color:'white'}}> more</Link></button>
                 </div>
             </div> 
         </div>

@@ -35,10 +35,10 @@ export const Header = () => {
                         <Navbar.Toggle aria-controls="basic-navbar-nav" style={{background:"#438ec8"}} />
                         <Navbar.Collapse id="basic-navbar-nav" >
                         <Nav className="me-auto navTabs">
-                            <Nav.Link > <Link to='/' >Home</Link></Nav.Link>
-                            <Nav.Link ><Link to='/watchlist' >Watchlist</Link></Nav.Link>
-                            <Nav.Link ><Link to='/watched' >Watched</Link></Nav.Link>
-                            <Nav.Link ><Link to='/add'>Search</Link></Nav.Link>
+                            <Nav.Link > <Link to='/Webflix' >Home</Link></Nav.Link>
+                            <Nav.Link ><Link to='/Webflix/watchlist' >Watchlist</Link></Nav.Link>
+                            <Nav.Link ><Link to='/Webflix/watched' >Watched</Link></Nav.Link>
+                            <Nav.Link ><Link to='/Webflix/add'>Search</Link></Nav.Link>
                         </Nav>
                         </Navbar.Collapse>
                     </Container>
