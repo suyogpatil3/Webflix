@@ -111,8 +111,8 @@ html{
   margin-top:10px;
   height:150px;
   background: #111111bb;
-  background: -webkit-linear-gradient(to top, 70% #000000,transparent);  /* Chrome 10-25, Safari 5.1-6*/
-  background:linear-gradient(to top, #000000  10%,transparent);  
+  background: -webkit-linear-gradient(to top, 70% #000000,#11111178);  /* Chrome 10-25, Safari 5.1-6*/
+  background:linear-gradient(to top, #000000  10%,#11111178);  
   color:white;
   width: 94%;
   border-radius: 10px;
@@ -443,8 +443,8 @@ header .nav-links li:last-child {
   margin-top:10%;
   height:83%;
   background: #11111186;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top, 70% #000000,transparent);  /* Chrome 10-25, Safari 5.1-6*/
-  background:linear-gradient(to top, #000000  10%,transparent); 
+  background: -webkit-linear-gradient(to top, 70% #000000,#1111116c);  /* Chrome 10-25, Safari 5.1-6*/
+  background:linear-gradient(to top, #000000  10%,#1111116c); 
   color:white;
   width: 90%;
   margin-left: 4%;
