@@ -42,6 +42,7 @@ html{
 .navigation{
   background-color: var(--primary);
   font-family: 'Gowun Dodum', sans-serif;
+  padding:1px;
 }
 
 .navTabs{
@@ -663,6 +664,9 @@ header .nav-links li:last-child {
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 30px;
   }
+  .cast_poster{
+    background-image: linear-gradient(to left, #111113, #191625, #1e1d32, #282748, #333260, #333260, #333260, #333260, #282748, #1e1d32, #191625, #111113);
+  }
 }
 
 @media (min-width: 800px) and (max-width: 1080px) {
@@ -683,6 +687,9 @@ header .nav-links li:last-child {
   }
   .movieGrid{
     grid-template-columns: repeat(3,1fr);
+  }
+  .cast_poster{
+    background-image: linear-gradient(to left, #111113, #191625, #1e1d32, #282748, #333260, #333260, #333260, #333260, #282748, #1e1d32, #191625, #111113);
   }
 }
 
@@ -711,6 +718,10 @@ header .nav-links li:last-child {
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 30px;
     margin-left:20%;
+    
+  }
+  .cast_poster{
+    background-image: linear-gradient(to left, #111113, #191625, #1e1d32, #282748, #333260, #333260, #333260, #333260, #282748, #1e1d32, #191625, #111113);
   }
   .searchBox{
     text-align: center;

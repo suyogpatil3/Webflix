@@ -18,6 +18,9 @@ function App() {
       <Router>
         <Header/>
         <Switch>
+          <Route exact path='/'>
+            <Homepage/>
+          </Route>  
           <Route exact path='/Webflix/watchlist'>
             <Watchlist/>
           </Route>
