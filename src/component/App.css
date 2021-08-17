@@ -580,6 +580,7 @@ header .nav-links li:last-child {
 .moreControlButton{
   font-size: 15px;
   border-radius: 2px;
+  padding:1px;
 }
 
 /*------------ Alerts------------------ */

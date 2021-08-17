@@ -25,7 +25,7 @@ export const MovieControls = ({movie,type}) => {
                            <i className="fa fa-plus"></i>Watched
                         </button>
                         <button className="controlButton" onClick={() => viewMoreDetails(movie)}>
-                            <Link to='/details'className="moreControlButton">More</Link>
+                            <Link to='/Webflix/details'className="moreControlButton">More</Link>
                         </button>
                         <button className="controlButton"
                           onClick = {() => 
