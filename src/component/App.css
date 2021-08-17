@@ -155,7 +155,7 @@ html{
   margin-right:3px;
 }
 
-.addButton {
+.addButton{
   padding: 10px 15px;
   background-color: var(--secondary);
   /* color: var(--primary); */
@@ -184,7 +184,10 @@ button{
   cursor: pointer;
   font-family: 'Gowun Dodum', sans-serif;
 }
-
+.trailerLink{
+  text-decoration: none;
+  color: white;
+}
 
 input:focus {
   outline: none;
